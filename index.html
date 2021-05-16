@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
     <head>
         <meta charset='utf-8'>
         <!-- see https://ogp.me/ for facebook open graph protocol meta data
@@ -16,13 +16,44 @@
     </head>
 <!-- This is a comment -->
     <body>
+        <header>
             <h1>Welcome to my website with an h1 heading</h1>
-            <h2>This is an h2 level heading<h2>
-            <img src="images/cat2.jpeg" height="200px" alt="A Russian Blue cat doing its thing.">
-            <em>emphasis element</em>   <p>Changed again locally</p>
-            <p>This <a href="https://www.mozilla.org/" target="_blank" title="Mozilla">link</a> will take you somewhere</p>
-            <button>Change user</button>
-            
+        </header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+            <form>
+                <input type="text" name="user" placeholder="User ID">
+                <input type="submit" value="Login">
+            </form>
+        </nav>
+        <main>
+            <article>
+                <h2>This is an h2 level heading<h2>
+                <img src="images/cat2.jpeg" height="200px" alt="A Russian Blue cat doing its thing.">
+                <em>emphasis element</em>   <p>Changed again locally</p>
+                <p>This <a href="https://www.mozilla.org/" target="_blank" title="Mozilla">link</a> will take you somewhere</p>
+                <p>For long sentences that need to be<br>split over two lines.</p>
+                <hr>
+                <p>We can split sections with a horizontal line</p>
+                <button>Change user</button>
+            </article>
+            <aside>
+                <h2>Related</h2>
+                <ul>
+                    <li>Bullet one</li>
+                    <li>Bullet 2</li>
+                    <li>Bullet three</li>
+                </ul>
+            </aside>
+        </main>
+
+        <footer>
+            <p>2021 Copyright Swerve Ltd Hong Kong</p>
+        </footer>
 
     </body>
 </html>
