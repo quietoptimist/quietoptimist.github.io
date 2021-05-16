@@ -40,8 +40,8 @@ const html = document.querySelector('html');
 
 info.textContent = 'Below is a dynamic list. Click anywhere outside the list to add a new list item. Click an existing list item to change its text to something else.';
 
-document.body.appendChild(info);
-document.body.appendChild(list);
+document.body.main.appendChild(info);
+document.body.main.appendChild(list);
 
 html.onclick = function() {
   const listItem = document.createElement('li');
