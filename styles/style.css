@@ -20,8 +20,8 @@ p, li {
     letter-spacing: 1px;
 }
 
-p   {
-    background-image: url("images/aerial-view.jpeg");    
+html   {
+    background-image: url("../images/aerial-view.jpg");    
 }
 body {
     width: 1000px;
